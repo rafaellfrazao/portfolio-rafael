@@ -110,65 +110,128 @@ class Detalhes extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Row(
-                children: const [
+              const Row(
+                children: [
                   Icon(Icons.info, color: Colors.blue),
                   SizedBox(width: 8),
-                  Text("Informações Sobre Mim", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
-                ],
-              ),
-              const SizedBox(height: 12),
-              const Text("Nome: Rafael Frazão da Cunha Brasil", style: TextStyle(fontSize: 15)),
-              const Text("Endereço: Olinda/PE", style: TextStyle(fontSize: 15)),
-              const Text("Email: rafaelrafinha8327@gmail.com", style: TextStyle(fontSize: 15)),
-              const Text("Contato: (81) 98208-3579", style: TextStyle(fontSize: 15)),
-              const Text("https://github.com/rafaellfrazao", style: TextStyle(fontSize: 15)),
-              const SizedBox(height: 12),
-              const Divider(),
-              Row(
-                children: const [
-                  Icon(Icons.flag, color: Colors.blue),
-                  SizedBox(width: 8),
-                  Text("Objetivos", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+                  Text(
+                    'Informações Sobre Mim',
+                    style: TextStyle(
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
                 ],
               ),
               const SizedBox(height: 12),
               const Text(
-                "Busco oportunidades na área de TI, principalmente com desenvolvimento de aplicativos mobile. "
-                    "Também possuo conhecimentos em manutenção e suporte técnico em informática.",
+                'Nome: Rafael Frazão da Cunha Brasil',
+                style: TextStyle(fontSize: 15),
+              ),
+              const Text(
+                'Endereço: Olinda/PE',
+                style: TextStyle(fontSize: 15),
+              ),
+              const Text(
+                'Email: rafaelrafinha8327@gmail.com',
+                style: TextStyle(fontSize: 15),
+              ),
+              const Text(
+                'Contato: (81) 98208-3579',
+                style: TextStyle(fontSize: 15),
+              ),
+              const Text(
+                'https://github.com/rafaellfrazao',
                 style: TextStyle(fontSize: 15),
               ),
               const SizedBox(height: 12),
               const Divider(),
-              Row(
-                children: const [
-                  Icon(Icons.school, color: Colors.blue),
+              const Row(
+                children: [
+                  Icon(Icons.flag, color: Colors.blue),
                   SizedBox(width: 8),
-                  Text("Escolaridade", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+                  Text(
+                    'Objetivos',
+                    style: TextStyle(
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
                 ],
               ),
-              const SizedBox(height: 12),
-              const Text("Ensino Médio Completo", style: TextStyle(fontSize: 15)),
-              const Text("Curso Técnico em Informática (nível médio)", style: TextStyle(fontSize: 15)),
-              const Text("Período: Início em 2023 / Conclusão prevista para 2025 (cursando)", style: TextStyle(fontSize: 15)),
-              const Text("Curso na Udemy: Flutter/Dart", style: TextStyle(fontSize: 15)),
-              const Text("Status: Cursando", style: TextStyle(fontSize: 15)),
-              const SizedBox(height: 12),
-              const Divider(),
-              Row(
-                children: const [
-                  Icon(Icons.work, color: Colors.blue),
-                  SizedBox(width: 8),
-                  Text("Experiências", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
-                ],
-              ),
-              const SizedBox(height: 12),
-              const Text("Empresa: Grupo Provider", style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
-              const Text("Cargo: Operador de Telemarketing", style: TextStyle(fontSize: 15)),
               const SizedBox(height: 12),
               const Text(
-                "Observação: Ainda não possuo experiência profissional na área de desenvolvimento, mas já criei "
-                    "aplicativos e realizo manutenção de computadores por conta própria.",
+                'Busco oportunidades na área de TI, principalmente com desenvolvimento de aplicativos mobile. '
+                'Também possuo conhecimentos em manutenção e suporte técnico em informática.',
+                style: TextStyle(fontSize: 15),
+              ),
+              const SizedBox(height: 12),
+              const Divider(),
+              const Row(
+                children: [
+                  Icon(Icons.school, color: Colors.blue),
+                  SizedBox(width: 8),
+                  Text(
+                    'Escolaridade',
+                    style: TextStyle(
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ],
+              ),
+              const SizedBox(height: 12),
+              const Text(
+                'Ensino Médio Completo',
+                style: TextStyle(fontSize: 15),
+              ),
+              const Text(
+                'Curso Técnico em Informática (nível médio)',
+                style: TextStyle(fontSize: 15),
+              ),
+              const Text(
+                'Período: Início em 2023 / Conclusão prevista para 2025 (cursando)',
+                style: TextStyle(fontSize: 15),
+              ),
+              const Text(
+                'Curso na Udemy: Flutter/Dart',
+                style: TextStyle(fontSize: 15),
+              ),
+              const Text(
+                'Status: Cursando',
+                style: TextStyle(fontSize: 15),
+              ),
+              const SizedBox(height: 12),
+              const Divider(),
+              const Row(
+                children: [
+                  Icon(Icons.work, color: Colors.blue),
+                  SizedBox(width: 8),
+                  Text(
+                    'Experiências',
+                    style: TextStyle(
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ],
+              ),
+              const SizedBox(height: 12),
+              const Text(
+                'Empresa: Grupo Provider',
+                style: TextStyle(
+                  fontSize: 15,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              const Text(
+                'Cargo: Operador de Telemarketing',
+                style: TextStyle(fontSize: 15),
+              ),
+              const SizedBox(height: 12),
+              const Text(
+                'Observação: Ainda não possuo experiência profissional na área de desenvolvimento, mas já criei '
+                'aplicativos e realizo manutenção de computadores por conta própria.',
                 style: TextStyle(fontSize: 15),
               ),
             ],
