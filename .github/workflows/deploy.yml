@@ -27,6 +27,9 @@ jobs:
       - name: Enable Flutter Web
         run: flutter config --enable-web
       
+      - name: Clean
+        run: flutter clean
+      
       - name: Get dependencies
         run: flutter pub get
       
@@ -40,6 +43,7 @@ jobs:
         run: |
           flutter build web --release --base-href "/portfolio-rafael/"
           touch build/web/.nojekyll
+          echo "flutter.js" > build/web/404.html
       
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
