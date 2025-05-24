@@ -167,8 +167,8 @@ class Detalhes extends StatelessWidget {
               ),
               const SizedBox(height: 12),
               const Divider(),
-              Row(
-                children: const [
+              const Row(
+                children: [
                   Icon(Icons.school, color: Colors.blue),
                   SizedBox(width: 8),
                   Text(
